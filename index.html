@@ -25,7 +25,7 @@
         <label for="tel" class="form-label">Telefone</label>
       <div class="input-group">
         <span class="input-group-text" id="inputGroupPrepend2">(21)</span>
-        <input type="tel" class="form-control" id="tel"  aria-describedby="inputGroupPrepend2" maxlength="10"  onkeydown="return somente_num(event)" required>
+        <input type="tel" class="form-control" id="tel"  aria-describedby="inputGroupPrepend2" maxlength="10" required>
       </div>
       
       </div>
@@ -38,7 +38,7 @@
 
       <div class="col-md-6">
         <label for="cpf" class="form-label">CPF</label>
-        <input type="text" class="form-control" id="cpf" onkeypress="somente_num()" placeholder="xxx.xxx.xxx-xx"required>
+        <input type="text" class="form-control" id="cpf" placeholder="xxx.xxx.xxx-xx"required>
       </div>
 
       <div class="col-md-6">
@@ -185,7 +185,26 @@
        
      
     </div>
- 
+
+    <div class="modal" tabindex="-1" id="alerta">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Orçamento Final!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center"> <output id="mensagem"> ... </output> </p>
+            </div>
+            <div class="modal-footer">    
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+  </section>
 
 
 
