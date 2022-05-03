@@ -71,26 +71,7 @@ function opcionais(valor,marcado){
     document.getElementById('total').value = total;
 }
 
-
-function alert(){
-    //entrada
-    total = document.getElementById('total').value;
-
-    //processamento
-    if (total < 1500){
-        msg = "Selecione o Horário da Festa."
-    }
-    else{
-        msg = "Obrigada pela Preferêcia. ";
-    
-        if (total >= 2500) {
-            total = total * 0.9;
-            msg += "Você recebeu um desconto de 10%. ";
-        }
-  
-        msg += "Valor a Pagar R$ " + total;
-  
-    }
+{
     
    //saída
    //alert(msg);
