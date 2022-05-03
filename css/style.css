@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(175, 163, 163, 0.421);
+    background-size: cover; /*para deixar no tamanho da tela, estica a imagem*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+#conteudo{
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(240, 248, 255, 0.484);
+    width: 50%;
+    margin-left: 10%;
+}
+body{
+    background-color: rgba(175, 163, 163, 0.421);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#conteudo{
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(240, 248, 255, 0.484);
+    width: 50%;
+    margin-left: 10%;
+}
+h1{
+    margin-bottom: 2%;
+}
+
+#título{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#saida{
+    margin-top: 10%;
+    font-family: "arial black";
+    font-size: 2.5em;
+}
+
+#imagem img{
+    position: fixed;
+    right: 9%;
+    height: 55%;
+    bottom: 0;
+}
